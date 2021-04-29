@@ -166,6 +166,47 @@ body{
   }
 /*End Right main content container*/
 
+/*Right container main content*/
+.wrap-icon-overview-box .card{
+    border-radius:25px;
+    background:var(--dark);
+    border:2px solid var(--dark);
+    margin-bottom:20px;
+    transition: all 0.3s ease;
+}
+.wrap-icon-overview-box .overview-icons{
+    font-size:50px;
+}
+.wrap-icon-overview-box a{
+    text-decoration: none;
+    color:var(--light);
+}
+.wrap-icon-overview-box h1{
+    font-family: 'Orelega One';
+    font-size:40px;
+    padding:0;margin:0;
+    color:var(--dimlight);
+    cursor: pointer;
+}
+.wrap-icon-overview-box p{
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.wrap-icon-overview-box .card:hover{
+    /* border:2px solid var(--neon); */
+    -webkit-box-shadow: -3px 10px 19px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 10px 19px -3px rgba(0,0,0,0.75);
+    box-shadow: -3px 10px 19px -3px rgba(0,0,0,0.75);
+}
+.wrap-icon-overview-box .card:hover h1{
+    color:var(--light) !important; 
+}
+.wrap-icon-overview-box .card:hover p{
+    color:var(--neon);
+}  /*main content ends*/
+
+
 
 
 /*Media query max-width 849 */
